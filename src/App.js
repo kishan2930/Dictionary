@@ -36,6 +36,7 @@ export default function App() {
         onChange={(e) => setWord(e.target.value)}
       />
       <button onClick={handleclick}>Search</button>
+      <p>eg. React, Component, State</p>
       <h3>Definition: </h3>
       {meaning && <p>{meaning}</p>}
     </div>
